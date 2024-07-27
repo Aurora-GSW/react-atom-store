@@ -1,0 +1,26 @@
+{
+	"compileOnSave": true,
+	"include": ["index.ts"],
+	"exclude": ["node_modules", "lib"],
+	"compilerOptions": {
+		"target": "ES6",
+		"useDefineForClassFields": true,
+		"module": "ES6",
+		"lib": ["ESNext", "DOM"],
+		"moduleResolution": "Node",
+		"strict": true,
+		"checkJs": true,
+		"declaration": true,
+		"declarationDir":"./lib",
+		"sourceMap": false,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"noEmit": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"noImplicitReturns": false,
+		"rootDir": "./",
+		"outDir": "lib"
+	}
+}
